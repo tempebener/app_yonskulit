@@ -78,11 +78,12 @@
           <div class="card card-login card-plain">
           <?php echo admin_form_open('auth/login', 'class="login" data-toggle="validator"'); ?>
               <div class="card-header text-center">
-                <div class="logo-container">
+                <!-- <div class="logo-container">
                 <?php if ($Settings->logo2) {
                     echo '<img src="' . base_url('assets/uploads/logos/' . $Settings->logo2) . '" alt="' . $Settings->site_name . '" />';
                 } ?>
-                </div>
+                </div> -->
+                <h1 class="fontcustom">Yons Kulit</h1>
               </div>
              
               <?php if ($Settings->mmode) {

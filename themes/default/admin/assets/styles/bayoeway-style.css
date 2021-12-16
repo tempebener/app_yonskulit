@@ -15,6 +15,26 @@
 .login-page .card-login .input-group:last-child {
   margin-bottom: unset;
 }
+/*@font-face {
+  font-family: "Hanahelia Personal Use Only";
+  src: url('Hanahelia.ttf');
+}*/
+/*@import url(//db.onlinewebfonts.com/c/65abaf494c8014dc7c7e115d6a38e5a7?family=Hanahelia+Personal+Use+Only);*/
+@font-face {
+  font-family: "Hanahelia Personal Use Only"; 
+  src: url("../fonts/hanahelia/Hanahelia.eot"); 
+  src: url("../fonts/hanahelia/Hanahelia.eot") format("embedded-opentype"), 
+        url("../fonts/hanahelia/Hanahelia.woff2") format("woff2"), 
+        url("../fonts/hanahelia/Hanahelia.woff") format("woff"), 
+        url("../fonts/hanahelia/Hanahelia.ttf") format("truetype");
+        /*url("//db.onlinewebfonts.com/t/65abaf494c8014dc7c7e115d6a38e5a7.svg#Hanahelia Personal Use Only") format("svg"); */
+}
+.fontcustom {
+  font-family: "Hanahelia Personal Use Only";
+}
+.login .input-group.no-border.input-lg .input-group-text {
+  padding: 15px 15px 15px 19px;
+}
 
 /*Loading*/
 #loading2{
