@@ -1726,11 +1726,9 @@ class Sales extends MY_Controller
         if ($view) {
             $this->load->view($this->theme . 'sales/pdf', $this->data);
         } elseif ($save_bufffer) {
-            // return $this->sma->generate_pdf($html, $name, $save_bufffer, $this->data['biller']->invoice_footer);
-            return $this->sma->generate_pdf($html, $name, $save_bufffer);
+            return $this->sma->generate_pdf($html, $name, $save_bufffer, $this->data['biller']->invoice_footer);
         } else {
-            // $this->sma->generate_pdf($html, $name, false, $this->data['biller']->invoice_footer);
-            $this->sma->generate_pdf($html, $name, false);
+            $this->sma->generate_pdf($html, $name, false, $this->data['biller']->invoice_footer);
         }
     }
 

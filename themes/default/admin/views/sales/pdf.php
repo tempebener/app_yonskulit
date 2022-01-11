@@ -388,11 +388,6 @@
                     } ?>
                 </div>
                 <div class="clearfix"></div>
-                <!-- <hr> -->
-                <!-- No. Rekening -->
-                <div class="col-xs-6 pull-left" style="margin-top: 50px;">
-                    <p style="height: 80px;"><?= $biller->invoice_footer; ?> </p>
-                </div>
 
         </div>
     </div>
