@@ -9,8 +9,8 @@
 
 /*Login*/
 .login-page .card-login .logo-container {
-  width: 100px !important;
-  margin-bottom: unset;
+  width: 300px !important;
+  margin-bottom: 35px;
 }
 .login-page .card-login .input-group:last-child {
   margin-bottom: unset;
