@@ -105,6 +105,12 @@
                         <?php echo form_input('cf6', $supplier->cf6, 'class="form-control" id="cf6"'); ?>
                     </div>
                 </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <?= lang('invoice_footer', 'invoice_footer'); ?>
+                        <?php echo form_textarea('invoice_footer', $supplier->invoice_footer, 'class="form-control skip" id="invoice_footer" style="height:100px;"'); ?>
+                    </div>
+                </div>
             </div>
 
 

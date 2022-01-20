@@ -158,6 +158,7 @@ class Suppliers extends MY_Controller
                 'cf4'         => $this->input->post('cf4'),
                 'cf5'         => $this->input->post('cf5'),
                 'cf6'         => $this->input->post('cf6'),
+                'invoice_footer' => $this->input->post('invoice_footer'),
                 'gst_no'      => $this->input->post('gst_no'),
             ];
         } elseif ($this->input->post('edit_supplier')) {

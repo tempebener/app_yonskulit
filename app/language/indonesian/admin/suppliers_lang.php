@@ -46,3 +46,6 @@ $lang['first_6_required']                   = 'Enam Pertama (6) kolom diperlukan
 $lang['are_required']                       = 'diperlukan';
 $lang['data_x_suppliers']                   = 'Data CSV bukan milik pemasok manapun';
 $lang['csv_update_tip']                     = 'Sistem akan memeriksa apakah email tersebut milik pemasok yang sudah ada dan kemudian email pelanggan akan diperbarui jika tidak akan ditambahkan email pemasok baru. Jika alamat email sudah ada untuk WAgent / pelanggan maka akan diabaikan';
+
+// Add by Bayu
+$lang['invoice_footer']               = 'Kaki Invoice';
