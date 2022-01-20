@@ -45,7 +45,7 @@
 
             <div class="row" style="margin-bottom:15px;">
                 <div class="col-xs-6">
-                    <?php echo $this->lang->line('to'); ?>:
+                    <?php echo $this->lang->line('from'); ?>:
                     <h2 style="margin-top:10px;"><?= $supplier->company && $supplier->company != '-' ? $supplier->company : $supplier->name; ?></h2>
                     <?= $supplier->company                              && $supplier->company != '-' ? '' : 'Attn: ' . $supplier->name ?>
 
@@ -84,7 +84,7 @@
                     ?>
                 </div>
                 <div class="col-xs-6">
-                    <?php echo $this->lang->line('from'); ?>:<br/>
+                    <?php echo $this->lang->line('to'); ?>:<br/>
                     <h2 style="margin-top:10px;"><?= $Settings->site_name; ?></h2>
                     <?= $warehouse->name ?>
 
